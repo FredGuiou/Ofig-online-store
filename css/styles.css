@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Regular";
+    src: url(../css/fonts/Raleway-Regular.ttf) format("truetype"); 
+}
+
+h1,h2,h3,p{
+    font-family: Regular;
+    font-size: 2rem;
+}
+
+header{
+    background-color: #c80000;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1.5%;
+}
+
+h2{
+    background-color: #666;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 0.5%;
+    text-align: center;
+}
+
+strong{
+    font-size: 0.4em;
+        
+    color:white;
+    padding: 0.25em 0.5em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h1,h2{
+    color: white;
+}
+
+.footertext{
+    color: white;
+}
+
+footer{
+    background-color: #666;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 0.5%;
+    text-align: center;
+}
+
+.NomFF{
+    color: #ccc;
+}
+
+h3{
+    font-size: 2em;
+}
+
