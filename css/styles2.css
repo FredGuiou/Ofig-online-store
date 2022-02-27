@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "raleway";
+    src: url("fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "raleway-bold";
+    src: url("fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+
+html{
+    --rouge : #c80000;
+    --gris-foncé : #666;
+    --gris-clair : #ccc;
+    --blanc : #fff;
+
+    --product-margin-bottom:1vh;
+}
+
+body{
+    font-family: "raleway";
+}
+
+
+/********/
+/*HEADER*/
+/********/
+
+
+.headerup{
+    background-color: var(--rouge);
+    color: var(--blanc);
+    display: flex;
+    align-items: flex-end;
+}
+
+.hdrutitle{
+    font-family: "raleway-bold";
+    font-size: 150%;
+}
+
+.hdrusubtitle{
+    font-family: "raleway-bold";
+    font-size: 90%;
+    padding-left: 0.5%;
+}
+
+.headerup{
+    padding: 1.25%;
+}
+
+.headerdown{
+    background-color: var(--gris-foncé);
+    color: var(--blanc);
+    text-align: center;
+    padding:1.10%;
+}
+
+
+.brand{
+    font-style: italic;
+    font-size: 115%;
+}
+
+
+/******/
+/*MAIN*/
+/******/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2% 6% 2% 6%;
+}
+
+.product{
+    border: 1px solid var(--gris-clair);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+    padding-left: var(--product-margin-bottom);
+    padding-right: var(--product-margin-bottom);
+    padding-bottom: var(--product-margin-bottom);
+
+}
+
+.productimage{
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.producttheme{
+    color: var(--gris-clair);
+    font-weight: bold;
+    border-bottom: 1px solid var(--gris-clair);
+    width: 94%;
+}
+
+.productname{
+    font-family: "raleway-bold";
+    font-size: 140%;
+    padding: 2% 0% 2% 0%;
+    width: 94%;
+}
+
+.producttext{
+    width: 94%;
+}
+.button{
+    background-color: var(--rouge);
+    color: var(--blanc);
+    padding: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+}
+
+.basket{
+    font-size: 0.8em;
+}
+
+.barredprice{
+    font-size: 0.8em;
+    text-decoration: line-through;
+}
+
+
+.promoprice{
+    font-family: "raleway-bold";
+}
+
+
+
+
+
+
+
+/********/
+/*FOOTER*/
+/********/
+
+
+.footer{
+    background-color: var(--gris-foncé);
+    text-align: center;
+    color: white;
+    padding:1.10%;
+}
+
