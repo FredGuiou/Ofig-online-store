@@ -1,74 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofig</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/styles.css">
 
-<body>
-    <header>
+</head>
 
-        <h1>oFig <strong>Figurines et statuettes</strong></h1>
+<body>
+
+
+    <header class="header">
+        <div class="headerup">
+            <h1 class="hdrutitle">oFig</h1>
+            <h2 class="hdrusubtitle">Figurines et statuettes</h2>
+        </div>
+
+        <div class="headerdown">
+            <h2 class="hdrdsubtitle">
+                Figurines sur le thème <span class="brand">Final Fantasy</span>
+            </h2>
+        </div>
 
     </header>
 
-    <main>
 
-        <h2>Figurines sur le thème Final Fantasy</h2>
 
-        
+    <main class="productlist">
+        <article class="product">
 
-        <article class="figurine">
-            <img class="imagefig" src="../images/cloud.png" alt="Cloud Classic">
-            <p class="NomFF">
+            <img src="../images/cloud.png" alt="Figurine Cloud Strife" class="productimage">
+
+            <h3 class="producttheme">
                 Final Fantasy VII
-            </p>
-            <h3>Cloud Strife Remake</h3>
-            <p>
+            </h3>
+
+            <h2 class="productname">
+                Cloud Strife Remake
+            </h2>
+
+            <p class="producttext">
                 Figurine de 8 pouces - livrée avec son packaging
-                
             </p>
-            <div class="button">
-                <p>Ajouter au panier</p>
-                <p class="price"><span>74,90 €</span> 59 €</p>
-            </div>
+
+            <a href="empty" class="button">
+                
+                    <span class="basket">Ajouter au panier</span>
+                    <span class="price">
+                        <span class="barredprice">74,90 € </span>
+                        <span class="promoprice">59 €</span>
+                    </span>
+                
+            </a>
+
         </article>
 
 
 
-        <img src="../images/tifa.png" alt="Tifa">
-        <p class="NomFF">
-            Final Fantasy Advent Children
-        </p>
-        <h3>Tifa Lockhart</h3>
-        <p>
-            Figurine de 7 pouces - livrée avec son packaging
-            Ajouter au panier
-            98,90 € 69 €
-        </p>
+        <article class="product">
 
-        <img src="../images/vincent.png" alt="Vincent Valentine">
-        <p class="NomFF">
-            Final Fantasy VII
-        </p>
-        <h3>Vincent Valentine</h3>
-        <p>
-            Figurine de 7 pouces - livrée avec son packaging
-            Ajouter au panier
-            74,90 €
-        </p>
+            <img src="../images/tifa.png" alt="Figurine Tifa Lockhart" class="productimage">
+
+            <h3 class="producttheme">
+                Final Fantasy Advent Children
+            </h3>
+
+            <h2 class="productname">
+                Tifa Lockhart
+            </h2>
+
+            <p class="producttext">
+                Figurine de 7 pouces - livrée avec son packaging
+            </p>
+
+            <a href="empty" class="button">
+                
+                    <span class="basket">Ajouter au panier</span>
+                    <span class="price">
+                        <span class="barredprice">98,90 €</span>
+                        <span class="promoprice">69 €</span>
+                    </span>
+            </a>
+
+
+
+
+        </article>
+
+        <article class="product">
+
+            <img src="../images/vincent.png" alt="Figurine Vincent Valentine" class="productimage">
+
+            <h3 class="producttheme">
+                Final Fantasy VII
+            </h3>
+
+            <h2 class="productname">
+                Vincent Valentine
+            </h2>
+
+            <p class="producttext">
+                Figurine de 7 pouces - livrée avec son packaging
+            </p>
+
+            <a href="empty" class="button">
+                
+                    <span class="basket">Ajouter au panier</span>
+                    <span class="price">
+                        <span class="firstprice">74,90 €</span>
+                    </span>
+                
+            </a>
+
+        </article>
+
+
 
     </main>
 
-    <footer>
 
-        <p class="footertext">
-            oFig - toutes les images sont sous copyright SquareEnix
-        </p>
 
+
+    <footer class="footer">
+        oFig - toutes les images sont sous copyright SquareEnix
     </footer>
+
 
 </body>
 
