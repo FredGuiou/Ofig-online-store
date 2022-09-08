@@ -26,7 +26,15 @@ body{
 /********/
 /*HEADER*/
 /********/
-
+.header{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 90%;
+}
 
 .headerup{
     background-color: var(--rouge);
@@ -73,8 +81,16 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
     padding: 2% 6% 2% 6%;
+
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 6%;
+
+    overflow-y: auto;
 }
 
 .product{
@@ -142,10 +158,21 @@ body{
     .productlist{
         flex-direction: column;
         align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 15%;
+        margin-bottom: 8%;
     }
 
     .headerup{
         justify-content: center;
+        padding: 2.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
     }
 
     .product{
@@ -157,8 +184,9 @@ body{
     }
 }
 
-
-
+.footer{
+    align-content: center;
+}
 
 /********/
 /*FOOTER*/
@@ -173,5 +201,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: fixed;
+    top: 94%;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
