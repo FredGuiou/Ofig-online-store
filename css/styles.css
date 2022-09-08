@@ -33,6 +33,7 @@ body{
     color: var(--blanc);
     display: flex;
     align-items: flex-end;
+    padding: 1.25%;
 }
 
 .hdrutitle{
@@ -46,9 +47,6 @@ body{
     padding-left: 0.5%;
 }
 
-.headerup{
-    padding: 1.25%;
-}
 
 .headerdown{
     background-color: var(--gris-foncé);
