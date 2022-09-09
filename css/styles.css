@@ -154,39 +154,7 @@ body{
 }
 
 
-@media screen and (max-width:600px) {
-    .productlist{
-        flex-direction: column;
-        align-content: center;
-        flex-wrap: nowrap;
 
-        position: inherit;
-
-        margin-top: 15%;
-        margin-bottom: 8%;
-    }
-
-    .headerup{
-        justify-content: center;
-        padding: 2.40%;
-    }
-
-    .headerdown{
-        padding: 1.20%;
-    }
-
-    .product{
-        width: auto;
-    }
-
-    .header{
-        width: 100%;
-    }
-}
-
-.footer{
-    align-content: center;
-}
 
 /********/
 /*FOOTER*/
@@ -208,3 +176,123 @@ body{
     bottom: 0;
 }
 
+/********************/
+/*RESPONSIVE DESGIN*/
+/******************/
+
+/*TABLETTE*/
+
+/*PORTRAIT*/
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .productlist{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+
+    .headerup{
+        justify-content: center;
+        padding: 3.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
+    }
+
+    .product{
+        width: auto;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .footer{
+        align-content: center;
+    }
+}
+
+
+
+/*SMARTPHONE*/ 
+
+/*PORTRAIT*/
+
+@media screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : portrait) {
+    .productlist{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 20%;
+        margin-bottom: 8%;
+    }
+
+    .headerup{
+        justify-content: center;
+        padding: 3.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
+    }
+
+    .product{
+        width: auto;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .footer{
+        align-content: center;
+        font-size: small;
+        top: 96%;
+    }
+}
+
+
+@media screen and (min-device-width : 280px) and (max-device-width : 319px) and (orientation : portrait) {
+    .productlist{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 30%;
+        margin-bottom: 8%;
+    }
+
+    .headerup{
+        justify-content: center;
+        padding: 3.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
+    }
+
+    .product{
+        width: auto;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .footer{
+        align-content: center;
+        font-size: smaller;
+        top: 96%;
+    }
+}
