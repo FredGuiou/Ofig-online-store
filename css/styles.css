@@ -184,7 +184,7 @@ body{
 
 /*PORTRAIT*/
 
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media screen and (min-device-width : 768px) and (max-device-width : 1023px) and (orientation : portrait) {
     .productlist{
         flex-direction: column;
         align-content: center;
@@ -262,6 +262,122 @@ body{
 
 
 @media screen and (min-device-width : 280px) and (max-device-width : 319px) and (orientation : portrait) {
+    .productlist{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 30%;
+        margin-bottom: 8%;
+    }
+
+    .headerup{
+        justify-content: center;
+        padding: 3.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
+    }
+
+    .product{
+        width: auto;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .footer{
+        align-content: center;
+        font-size: smaller;
+        top: 96%;
+    }
+}
+
+/*LANDSCAPE*/
+
+@media screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation : landscape) {
+    .productlist{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 11%;
+        margin-bottom: 1%;
+    }
+
+    .headerup{
+        justify-content: center;
+        padding: 1.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
+    }
+
+    .product{
+        width: auto;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .footer{
+        align-content: center;
+        font-size: small;
+        top: 96%;
+    }
+}
+
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1023px) and (orientation : landscape) {
+    .productlist{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+
+        position: inherit;
+
+        margin-top: 11%;
+        margin-bottom: 1%;
+    }
+
+    .headerup{
+        justify-content: center;
+        padding: 1.40%;
+    }
+
+    .headerdown{
+        padding: 1.20%;
+    }
+
+    .product{
+        width: auto;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .footer{
+        align-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-device-width : 280px) and (max-device-width : 319px) and (orientation : landscape) {
     .productlist{
         flex-direction: column;
         align-content: center;
